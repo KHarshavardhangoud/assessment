@@ -1,0 +1,217 @@
+* {
+    box-sizing: border-box;;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lightgreen;
+}
+section{
+    padding: 6px;
+    box-sizing: border-box;
+}
+.title h2 { 
+
+    font-size: 25px;
+    text-align: center;
+    text-decoration: none;
+    text-decoration: solid;
+    text-transform: capitalize;
+    padding: 10px;
+    color: bisque;
+       }
+div h1{
+    text-align: center;
+    text-shadow: 2px;
+    size: 1.3em solid;
+    text-transform: uppercase;
+    color: blue;
+    padding: 15px;
+    margin: auto;
+
+} 
+header .navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color:orange;
+    color:black;
+    padding: 0px;
+    border: 1px black;
+}
+
+.brand-title {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin: .5rem;
+    align-items: flex-start;
+}
+
+.navbar-links {
+    height: 100%;
+    display: none;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+}
+
+.navbar-links li a:hover {
+    background-color:bisque;
+    color: black;
+    border: 1px black;
+}
+
+.toggle-button {
+
+    position: absolute;
+    top: 2rem;
+    right: 1.7rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color:black;
+    border-radius: 0px;
+}
+
+@media (max-width: 765px) {
+    
+    nav .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+   
+            }
+    .brand-title{
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        display: none;
+        width: 100%;
+        padding: 2px;
+        border: 1px black;
+        background-color: brown;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+        border: 1px black;
+        padding: 0;
+        margin: 0;
+    
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+
+       
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+    .navbar{
+        text-align: left;
+        padding-left: 10px;
+    }
+}
+.lorem
+{
+	margin: 5px;
+}
+
+	
+ .module {
+		background-color: black;
+		color: gold;
+		border: 3px goldenrod solid;
+		font-family: serif;
+		margin: 0px;
+		height: 1000px;
+		overflow: hidden;
+        text-align: left;
+
+ }
+  #Battle
+ {
+ 	margin: 0px;
+ 	padding: 2px;
+ 	color: white;
+ 	align-content: center;
+     text-align: center;
+ 	font-size: 22px;
+    text-shadow: 1px;
+    text-transform: capitalize ;
+
+ }
+  
+ @media (min-width: 0px) and (max-width:767px ){
+	.col-lg-12{
+		float :left;
+                                        width: 100%;
+	}
+	
+	.col-lg-12{
+		width: 100%;
+	}
+	
+}
+
+@media (min-width: 992px){
+
+	.col-lg-12{
+	float:left;
+     width:100%;
+ 
+	}
+	
+
+	}
+@media (min-width: 768px) and (max-width:991px ){
+	.col-lg-12{
+        float: left;
+      width: 100%;
+	}
+	
+	.col-lg-12{
+		width: 100%;
+	}
+	
+	
+	
+	
+}
+.col-lg-12{
+    overflow-y: scroll;
+}
